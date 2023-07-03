@@ -6,11 +6,9 @@ let message = ""
 let player = {
     name: "Waleed",
     chips: 150,
-    ptintname: () => {
-        document.querySelector("#player-el").textContent = player.name + ": $" + player.chips
-    }
 }
 
+document.querySelector("#player-el").textContent = player.name + ": $" + player.chips
 
 function getRandomValue() {
     player.ptintname()
@@ -68,6 +66,3 @@ function newCard() {
         renderGame()
     }
 }
-
-
-

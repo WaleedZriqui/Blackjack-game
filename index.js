@@ -11,8 +11,6 @@ let player = {
 document.querySelector("#player-el").textContent = player.name + ": $" + player.chips
 
 function getRandomValue() {
-    player.ptintname()
-
     let randomValue = Math.floor(Math.random() * 13) + 1;
     if (randomValue == 1) {
         return 11
